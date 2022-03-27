@@ -1,0 +1,116 @@
+
+/* font import  */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100;400;500&display=swap');
+
+/* global */
+
+h1,h2,h3,p {
+    margin: 0;
+    padding: 0;
+}
+
+h2, p {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Roboto', sans-serif;    font-weight: 400;
+    font-size: 22px;
+    margin: 7px;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.divContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(44, 44, 44);
+
+    height: 600px; 
+    padding: 10px;
+}
+
+/* design global card */
+
+.backCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: start;
+
+    width: 33%;
+
+    border-radius: 15px;
+    margin: 7px;
+
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px rgb(37, 37, 37);
+}
+
+.divBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    justify-items: center;
+
+    margin-bottom: 8px;
+}
+
+/* design global button */
+
+.headerCard {
+    font-size: 1,5em;
+    text-transform: uppercase;
+    padding: 5px;
+
+    background-color: rgb(55, 96, 234);
+    color: white;
+    border: solid 2px rgb(55, 96, 234);
+    border-radius: 5px;
+
+    max-width: 30%;
+    margin: 3%;
+
+
+    box-shadow: 1px 1px 3px rgb(37, 37, 37);
+}
+
+/* design bouton card */
+
+.btnCard {
+    background-color: transparent;
+    border: solid 2px rgb(202,203,226);
+    color: white;
+    border-radius: 35px;
+
+    font-size: 0,9em;
+    font-weight: bolder;
+
+    padding:5px 10px;
+}
+
+/* background card */
+
+
+#oneDiv {
+    background-image: linear-gradient(transparent,black), url(./images/ghostwireTokyo.jpeg);
+;
+}
+
+#twoDiv {
+    background-image: linear-gradient(transparent,black), url(./images/tabs.jpeg);
+}
+#threeDiv {
+    background-image: url(./images/legoStarWars.jpeg);
+}
+
+#fourDiv {
+    background-image: url(./images/ubisoft.jpeg);
+}
+
+
+/* before after et tout le reste */
+
